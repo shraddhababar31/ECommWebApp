@@ -1,0 +1,45 @@
+
+#To ignore unwanted files here we use .gitlgnore file
+
+# Java Compiled file
+
+*.class
+
+# Build folder
+target/
+bin/
+out/
+
+#Eclipse
+.metadata/
+.classpath
+.project
+.settings
+
+Servers/
+
+#Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionBackup
+pom.xml.next
+release.properties
+
+.log
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+.DS_Store
+Thumbs.db
+
+work/
+temp/
+logs/
+
+.env
+.env.*
+!.env.example
+
